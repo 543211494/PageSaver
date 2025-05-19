@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>my first plugin</title>
+</head>
+<body>
+    <h1>点击按钮保存/恢复页面</h1>
+    <div class="button-container">
+        <div id="save">保存</div>
+        <div id="recover">恢复</div>
+    </div>
+</body>
+<script src="popup.js"></script>
+<style>
+body {
+    width: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 16px;
+    color: #333;
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.button-container > div{
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-container > div:first-child{
+    background-color: #0095FF;
+    color: #FFFFFF;
+}
+.button-container > div:last-child{
+    background-color: #D1ECFF;
+    color: #1EA0FA;
+}
+.button-container > div:first-child:hover{
+    background-color: #007ED9;
+}
+.button-container > div:last-child:hover{
+    background-color: #1FA2FF;
+    color: #FFFFFF;
+}
+</style>
+</html>

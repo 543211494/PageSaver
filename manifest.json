@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "PageSaver",
+    "version": "1.0",
+    "description": "这个插件可以保存当前打开的页面，下次直接恢复。",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "32": "icon.png",
+        "48": "icon.png",
+        "64": "icon.png",
+        "128": "icon.png",
+        "256": "icon.png"
+      }
+    },
+    "icons":{
+      "32": "icon.png",
+      "48": "icon.png",
+      "64": "icon.png",
+      "128": "icon.png",
+      "256": "icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ]
+  }
+  
