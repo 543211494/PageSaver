@@ -6,9 +6,13 @@
 
 ## 1.安装步骤
 
-在谷歌浏览器中输入`chrome://extensions/`，将打包好的插件拖入即可安装
+下载代码
 
-![1](./images/1.png)
+```sh
+git clone https://github.com/543211494/PageSaver.git
+```
+
+在谷歌浏览器中输入`chrome://extensions/`，点击加载已解压的拓展程序，选择刚拉取仓库的文件夹![1](./images/1.png)
 
 在右上方管理插件处固定插件
 
